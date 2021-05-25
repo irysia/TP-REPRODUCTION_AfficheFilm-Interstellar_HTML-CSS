@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  color: #647386;
+  font-size: 1rem;
+}
+
+@font-face {
+  font-family: "OPTIBodoni-Antiqua";
+  src: url(../font/OPTIBodoni-Antiqua.otf);
+}
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url(../font/Poppins-Regular.ttf);
+}
+
+p, span {
+  margin: 0;
+  padding: 0;
+}
+
+.poster-bg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 435px;
+  margin: 0 auto;
+  height: 93vh;
+  background-image: url(../images/interstellar.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+  font-family: "Poppins-Regular";
+  text-align: center;
+}
+
+.movie-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 15%;
+}
+
+.director {
+  font-size: 0.3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.director span {
+  font-size: 0.5rem;
+}
+
+.movie-title {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-family: "OPTIBodoni-Antiqua";
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+h1 span {
+  color: black;
+}
+
+.movie-quote {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 41px;
+}
+
+.movie-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  margin-top: 16px;
+  font-size: 0.5rem;
+}
+
+.line {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.movieTeam, .movieTeam span {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.1rem;
+  text-align: right;
+  margin: 0 2px;
+  line-height: 0.3rem;
+  height: 100%;
+
+}
+
+.text {
+height: 100%;
+display: flex;
+flex-direction: row;
+align-items:  baseline;
+
+}
+
+.logos{
+  width: 70%;
+  display: flex;
+  flex-direction: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.date{
+  color: white;
+  font-size: 0.3rem;
+}
+
+.date span {
+  font-size: 0.1rem;
+}
+.logos img {
+  width: 7%;
+}
